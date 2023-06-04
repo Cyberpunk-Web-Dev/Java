@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shape Applet</title>
+</head>
+<body>
+    <applet code="/ShapeApplet.class" width="500" height="200">
+    </applet>
+    <form>
+        <select onchange="setColor(this.value)">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="cyan">Cyan</option>
+            <option value="magenta">Magenta</option>
+            <option value="orange">Orange</option>
+            <option value="pink">Pink</option>
+            <option value="gray">Gray</option>
+            <option value="black">Black</option>
+        </select>
+    </form>
+    <script>
+        function setColor(color) {
+            document.applets[0].setColor(color);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "workbench.colorTheme": "Default High Contrast",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.cursorBlinking": "expand",
+    "editor.mouseWheelZoom": true,
+    "java.debug.settings.onBuildFailureProceed": true,
+}
